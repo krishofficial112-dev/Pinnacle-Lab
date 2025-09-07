@@ -1,30 +1,37 @@
-# Python Alarm Clock GUI
 
-A full-featured Python Alarm Clock with GUI, supporting:
+# Scientific Python Calculator
 
-- Multiple alarms
-- Custom tones (via file dialog)
-- Snooze & Dismiss
-- Countdown timer for next alarm
-
-## How to Run
-
-1. Clone the repo:
-   ```
-   git clone <repo-url>
-   ```
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the alarm clock:
-   ```
-   python alarm_clock.py
-   ```
+A **user-friendly GUI-based scientific calculator** built with Python and Tkinter.  
+Supports basic arithmetic operations, scientific functions, parentheses, and constants.
 
 ## Features
+- Basic operations: addition (+), subtraction (-), multiplication (*), division (/)
+- Scientific functions: sin, cos, tan, log, ln, exp, abs
+- Constants: pi
+- Advanced operations: power (^), square root (√), parentheses
+- Error handling for division by zero and invalid input
 
-- Set multiple alarms simultaneously
-- Countdown display for next alarm
-- Snooze & Dismiss functionality
-- Drag-and-drop or select custom alarm tones
+## Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/yourusername/scientific-calculator.git
+```
+
+2. Navigate into the project folder:
+```
+cd scientific-calculator
+```
+
+3. Install required packages:
+```
+pip install -r requirements.txt
+```
+
+## Usage
+Run the calculator:
+```
+python calculator.py
+```
+
+Enjoy calculating!
